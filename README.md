@@ -6,21 +6,21 @@
 
 1. 处理单个文件：
    ```
-   python factivartf2xlsx.py -i input.rtf
+   python factivartf2csv.py -i input.rtf
    ```
 
 2. 处理目录中所有RTF文件：
    ```
-   python factivartf2xlsx.py -i rtf_files/
+   python factivartf2csv.py -i rtf_files/
    ```
 
 3. 处理目录并合并到单个文件：
    ```
-   python factivartf2xlsx.py -i rtf_files/ -o merged.csv -m
+   python factivartf2csv.py -i rtf_files/ -o merged.csv -m
    ```
 
 4. 处理目录并保存到指定输出目录：
    ```
-   python factivartf2xlsx.py -i rtf_files/ -o output_csv/
+   python factivartf2csv.py -i rtf_files/ -o output_csv/
    ```
         
